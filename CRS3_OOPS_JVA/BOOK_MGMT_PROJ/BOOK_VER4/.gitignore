@@ -1,0 +1,72 @@
+# 📦 Java .gitignore (Book Management Project)
+
+# Compiled class files
+
+*.class
+
+# Logs
+
+*.log
+
+# Temporary files
+
+*.tmp
+*.temp
+
+# OS generated files
+
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+
+.vscode/
+
+# IntelliJ / Eclipse (if used later)
+
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+
+# Build folders (if added later)
+
+bin/
+build/
+out/
+target/
+
+# Jar files (optional)
+
+*.jar
+
+# Backup files
+
+*.bak
+
+
+*.env 
+# 🔹 What is a .env file?
+# A .env file stores sensitive data like:
+# API keys 🔑
+# Database passwords
+# Secret tokens
+
+# Use .env when you add:
+# Spring Boot backend
+# External APIs (payment, weather, etc.)
+# Database credentials
+
+# /*
+# 🔹 Simple Explanation
+
+# *.class → compiled files (auto-generated, don’t upload)
+# .vscode/ → your personal editor settings
+# build/, out/ → generated folders
+# OS files → useless junk (auto-created)
+
+
+# 🔹 One-line Ivw -
+# .gitignore is used to exclude unnecessary, generated, or system files from being tracked in Git.
+# */
