@@ -22,22 +22,24 @@ Also, includes courses on Devops, Microservices, FrontEnd, Design Pattern, Testi
 ```
 IBM-Java-Certificate/
 │
-├── Course-1-Basics/
-├── Course-2-OOP/
+├── Course-1-SW_Erg/
+|── Course-2-Java_Basics/
+├── Course-3-OOPS/
 │ └── Book-Management-System/
 │
-├── Course-3-Advanced-Java/
-├── Course-4-Collections/
-├── Course-5-Exception-Handling/
-├── Course-6-Java-IO/
-├── Course-7-Multithreading/
-├── Course-8-Database/
-├── Course-9-JDBC/
-├── Course-10-Spring-Boot/
-├── Course-11-REST-API/
-├── Course-12-Microservices/
-├── Course-13-DevOps/
-├── Course-14-Capstone-Project/
+├── Course-4-Java_OOPS_Proj/
+├── Course-5-FrontEnd/
+├── Course-6-GitHub/
+├── Course-7-Spring_Boot/
+├
+├── Course-8-Java_with_DB/
+├── Course-9-Cloud_Microservices_Devops/
+├── Course-10-Design_Pattern_Testing_Depyt/
+├── Course-11-Java_Final_Proj/
+|
+├── Course-12-GEN_AI/
+├── Course-13-GEN_AI_with_SpringBoot/
+├── Course-14-Interview_Guide_Preparation/
 │
 └── README.md
 ```
@@ -92,13 +94,15 @@ IBM-Java-Certificate/
 
 ## 🧠 Skills Gained
 
-- Core Java & OOP  
-- Data Structures (ArrayList, Collections)  
-- Exception Handling  
-- JDBC & Database Integration  
+- Core Java & OOPS  
+- Data Structures (Exception Handling , Collections)  
+- FrontEnd
+- Git & GitHub Workflow 
 - Spring Boot & REST APIs  
-- Microservices Basics  
-- Git & GitHub Workflow  
+- JDBC & Database Integration  
+- Microservices, Cloud, Devops, Agile
+- Design Pattern, Testing, Deployment
+- Gen AI with Spring Boot
 
 ---
 
