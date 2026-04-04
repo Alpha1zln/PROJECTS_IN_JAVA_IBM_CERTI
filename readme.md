@@ -31,7 +31,8 @@ IBM-Java-Certificate/
 ├── Course-5-FrontEnd/
 ├── Course-6-GitHub/
 ├── Course-7-Spring_Boot/
-├
+├└── Library-Management-System/
+|
 ├── Course-8-Java_with_DB/
 ├── Course-9-Cloud_Microservices_Devops/
 ├── Course-10-Design_Pattern_Testing_Depyt/
@@ -62,11 +63,11 @@ IBM-Java-Certificate/
 
 ---
 
-### 🔹 2. Spring Boot Projects
+### 🔹 2. Spring Boot Projects (LMS - SpringBoot Proj ver 1-6)
 - REST API development  
 - Controller, Service, Repository layers  
-- CRUD APIs  
-- JSON-based communication  
+- CRUD APIs, Logger, Postman
+- Spring Boot
 
 ---
 
