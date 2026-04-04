@@ -1,0 +1,45 @@
+# Compiled class files
+*.class
+
+# Logs
+*.log
+
+# Maven target folder
+target/
+
+# Gradle build folder
+build/
+
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Application properties (optional if sensitive)
+application.properties
+
+# H2 DB files (if used later)
+*.mv.db
+*.trace.db
+
+# Jar files
+*.jar
+*.war
+*.ear
+
+# op file in wrd
+op.docx
+
+# Temp files
+*.tmp
+
+# Node modules (if frontend later)
+node_modules/
