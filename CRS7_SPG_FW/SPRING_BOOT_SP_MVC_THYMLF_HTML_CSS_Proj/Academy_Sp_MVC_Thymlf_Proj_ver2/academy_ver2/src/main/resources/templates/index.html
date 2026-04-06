@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlphaCoder Academy</title>
+	<link rel="stylesheet" th:href="@{/css/styles.css}">
+</head>
+<body>
+
+        <!-- 🔥 TOP NAVBAR -->
+    <header>
+        <nav class="navbar">
+            <div class="logo"> <a th:href="@{/}">AlphaCoder</a> </div>
+            <ul class="nav-links">
+                <li><a th:href="@{/}">Home</a></li>
+                <li><a th:href="@{/about}">About</a></li>
+                <li><a th:href="@{/services}">Services</a></li>
+                <li><a th:href="@{/contact}">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+       <!-- MAIN CONTENT -->
+    <main>
+        <h1>Welcome to the AlphaCoder Top Coding Academy</h1> <br>
+        <p style="font-size: larger; font-style: italic;">
+            <b>You will learn foundations of Java, OOPs, Spring Boot and Spring MVC here. </b>
+        </p>
+
+        <br><br> 
+        <p style="font-size: large; font-style: inherit;" th:text="${message}">
+            Let's get started  </p>
+
+        <a class="btn" th:href="@{/registration}">Go to Registration Page</a>
+    </main>
+
+    <!-- Container for aside and main -->
+    <div class="container">
+        <!-- Aside Section (Navigation Bar) -->
+        <!-- <aside>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </aside> -->
+
+        <!-- Main Content -->
+        <!-- <main>
+            <h1>Welcome to the Java Academy</h1>
+            <p>You will learn foundations of Java, OOPs, Spring Boot and Spring MVC here. Below is a link to the registration page:</p>
+			<p th:text="${message}">Let's get started</p>
+            <a th:href="@{/registration}">Go to Registration Page</a>
+        </main> -->
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; <span th:text="${#dates.format(#dates.createNow(), 'yyyy')}"></span> AlphaCoder Academy. All rights reserved.</p>
+    </footer>
+</body>
+</html>

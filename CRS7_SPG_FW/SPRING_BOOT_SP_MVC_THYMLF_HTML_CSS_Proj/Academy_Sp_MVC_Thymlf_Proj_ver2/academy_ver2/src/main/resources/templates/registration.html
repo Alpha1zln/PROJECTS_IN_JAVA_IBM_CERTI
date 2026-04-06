@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" th:href="@{/css/regstyles.css}">
+</head>
+<body>
+
+<!-- 🔥 NAVBAR -->
+<header>
+    <nav class="navbar">
+        <div class="logo">AlphaCoder</div>
+        <ul class="nav-links">
+            <li><a th:href="@{/}">Home</a></li>
+            <li><a th:href="@{/about}">About</a></li>
+            <li><a th:href="@{/services}">Services</a></li>
+            <li><a th:href="@{/contact}">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- FORM -->
+<main>
+    <div class="form-container">
+        <h1>Registration Form</h1>
+
+        <!-- 🔥 IMPORTANT FIX -->
+        <form class="form" th:action="@{/register}" method="post" th:object="${registrationForm}">
+
+            <!-- First Name -->
+            <div>
+                <label>First Name:</label>
+                <input type="text" th:field="*{firstName}">
+                <span class="error"
+                    th:if="${#fields.hasErrors('firstName')}"
+                    th:errors="*{firstName}"></span>
+            </div>
+
+            <br>
+            <!-- Last Name -->
+            <div>
+            <label>Last Name:</label>
+            <input type="text" th:field="*{lastName}">
+            <span class="error"
+                  th:if="${#fields.hasErrors('lastName')}"
+                  th:errors="*{lastName}"></span>
+
+            </div>
+            <br>
+            <!-- Country -->
+             <div>
+            <label>Country:</label>
+            <select th:field="*{country}">
+                <option value="">Select your country</option>
+                <option value="india">India</option>
+                <option value="russia">Russia</option>
+                <option value="australia">Australia</option>
+                <option value="usa">USA</option>
+                
+            </select>
+            <span class="error"
+                  th:if="${#fields.hasErrors('country')}"
+                  th:errors="*{country}"></span>
+            </div>
+                
+            <br>
+            <!-- DOB -->
+            <div>
+            <label>Date of Birth:</label>
+            <input type="date" th:field="*{dob}">
+            <span class="error"
+                  th:if="${#fields.hasErrors('dob')}"
+                  th:errors="*{dob}"></span>
+            </div>
+
+            <br>
+            <!-- Email -->
+            <div>
+            <label>Email:</label>
+            <input type="email" th:field="*{email}">
+            <span class="error"
+                  th:if="${#fields.hasErrors('email')}"
+                  th:errors="*{email}"></span>
+            </div>
+            <br> 
+            <!-- Submit -->
+            <button type="submit">Register</button>
+
+        </form>
+
+        <a th:href="@{/}">← Back to Home</a>
+    </div>
+</main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; <span th:text="${#dates.format(#dates.createNow(), 'yyyy')}"></span> AlphaCoder Academy. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

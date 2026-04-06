@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Services</title>
+    <link rel="stylesheet" th:href="@{/css/regstyles.css}">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="logo"> <a th:href="@{/}">AlphaCoder</a> </div>
+        <ul class="nav-links">
+            <li><a th:href="@{/}">Home</a></li>
+            <li><a th:href="@{/about}">About</a></li>
+            <li><a th:href="@{/services}">Services</a></li>
+            <li><a th:href="@{/contact}">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <div class="form-container">
+        <h1>Our Services</h1>
+
+        <ul>
+            <li style="font-size: large; font-style: inherit;"> Java & OOPs Training</li>
+            <li style="font-size: large; font-style: inherit;"> Spring Boot & Spring MVC Projects</li>
+            <li style="font-size: large; font-style: inherit;"> Data Structures & Algorithms Preparation</li>
+            <li style="font-size: large; font-style: inherit;"> Resume & Interview Guidance</li>
+        </ul>
+
+    </div>
+</main>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; <span th:text="${#dates.format(#dates.createNow(), 'yyyy')}"></span> AlphaCoder Academy. All rights reserved.</p>
+    </footer>
+
+
+
+</body>
+</html>

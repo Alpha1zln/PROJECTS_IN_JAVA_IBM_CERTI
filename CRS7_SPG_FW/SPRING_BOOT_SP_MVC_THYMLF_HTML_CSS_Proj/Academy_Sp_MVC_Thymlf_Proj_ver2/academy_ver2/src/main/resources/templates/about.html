@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>About Us</title>
+    <link rel="stylesheet" th:href="@{/css/regstyles.css}">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="logo"> <a th:href="@{/}">AlphaCoder</a> </div>
+        <ul class="nav-links">
+            <li><a th:href="@{/}">Home</a></li>
+            <li><a th:href="@{/about}">About</a></li>
+            <li><a th:href="@{/services}">Services</a></li>
+            <li><a th:href="@{/contact}">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <div class="form-container">
+        <h1>About Us</h1> 
+        <p style="font-size: large; font-style: inherit;">
+            AlphaCoder Academy is dedicated to helping students master Java, Spring Boot,
+            and backend development. 
+        </p>
+        <br>
+        <p style="font-size: large; font-style: inherit;">
+            We focus on real-world skills, projects, and interview preparation.
+        </p>
+        <br>
+        <p style="font-size: large; font-style: inherit;">
+            Our mission is to transform beginners into industry-ready software engineers.
+        </p>
+    </div>
+</main>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; <span th:text="${#dates.format(#dates.createNow(), 'yyyy')}"></span> AlphaCoder Academy. All rights reserved.</p>
+    </footer>
+
+
+</body>
+</html>

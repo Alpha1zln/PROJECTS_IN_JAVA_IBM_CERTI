@@ -31,7 +31,9 @@ IBM-Java-Certificate/
 ├── Course-5-FrontEnd/
 ├── Course-6-GitHub/
 ├── Course-7-Spring_Boot/
-├└── Library-Management-System/
+├           └── Library-Management-System/
+|           -Spring_MVC_Thymleaf/
+|           └── AlphaCoder-Academy-WebApp/
 |
 ├── Course-8-Java_with_DB/
 ├── Course-9-Cloud_Microservices_Devops/
@@ -71,20 +73,29 @@ IBM-Java-Certificate/
 
 ---
 
-### 🔹 3. Database & JDBC Projects
+### 🔹 3. Spring Boot, Spring MVC, Thymleaf based Project (AlphaCoder-Academy-WebApp ver 1-2)
+- Model View Controller [MVC]
+- Thymleaf based dynamic html pages
+- Styling using CSS 
+- Spring Boot
+
+---
+
+
+### 🔹 4. Database & JDBC Projects
 - MySQL integration  
 - CRUD operations using JDBC  
 - Connection handling  
 
 ---
 
-### 🔹 4. Microservices (Basics)
+### 🔹 5. Microservices (Basics)
 - Introduction to microservices architecture  
 - Service separation concepts  
 
 ---
 
-### 🔹 5. Capstone Project
+### 🔹 6. Capstone Project
 - Final project integrating:
   - Java  
   - Spring Boot  

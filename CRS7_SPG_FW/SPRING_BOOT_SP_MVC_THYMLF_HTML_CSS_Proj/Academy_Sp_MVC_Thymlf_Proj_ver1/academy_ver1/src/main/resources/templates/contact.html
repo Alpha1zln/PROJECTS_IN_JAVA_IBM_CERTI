@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Contact</title>
+    <link rel="stylesheet" th:href="@{/css/regstyles.css}">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="logo"> <a th:href="@{/}">AlphaCoder</a> </div>
+        <ul class="nav-links">
+            <li><a th:href="@{/}">Home</a></li>
+            <li><a th:href="@{/about}">About</a></li>
+            <li><a th:href="@{/services}">Services</a></li>
+            <li><a th:href="@{/contact}">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <div class="form-container">
+        <h1>Contact Us</h1>
+        
+        <p style="padding: 2%; font-size: large;"> Email: support@alphacoder.com</p>
+        <p style="padding: 2%; font-size: large;"> Phone: +91 98765 43210</p>
+        <p style="padding: 2%; font-size: large;"> Location: India</p>
+
+    </div>
+</main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; <span th:text="${#dates.format(#dates.createNow(), 'yyyy')}"></span> AlphaCoder Academy. All rights reserved.</p>
+    </footer>
+
+
+</body>
+</html>
