@@ -212,6 +212,47 @@ http://localhost:8080/
 * ☁️ Cloud Deployment
 
 ---
+## 🧠 How to push code to Github from pc 
+
+### 🚀 ✅ If repo already initialized & remote added
+```
+1️⃣ Check status
+git status
+
+2️⃣ Add files
+git add .
+
+3️⃣ Commit
+git commit -m "added ver2, readme, validation"
+
+4️⃣ Push
+git push origin main
+```
+
+ ---
+
+#### 🚀 ✅ If first time push (IMPORTANT)
+```
+1️⃣ Initialize (if not done)
+git init
+2️⃣ Add remote
+git remote add origin https://github.com/your-username/repo-name.git
+
+4️⃣ Push (first time)
+git branch -M main
+git push -u origin main
+```
+---
+
+#### 🚀 ✅ Gist - If already push codes on github for proj.
+```
+3️⃣ Add + Commit
+git add .
+git commit -m "initial commit"
+git push origin main
+```
+---
+---
 
 ## 👨‍💻 Author
 
