@@ -183,23 +183,9 @@ http://localhost:8080/
 
 ---
 
-## 👨‍💻 Author
-
-**AlphaCoder (Java Developer Aspirant)**
-**** Learned from IBM JAVA PROF. CRTI ON COURSERA.
-
 ---
 
-## ⭐ Final Note
-
-This project is built to strengthen **Spring Boot MVC fundamentals** and demonstrate **real-world web application structure** for interviews and development practice.
-
----
-
-💡 *“Learn. Build. Grow.”*
-
----
-## MISCELANEOUS 
+## 🚀 Miscellaneous 
 
 ### THYMLEAF THEORY
 
@@ -359,7 +345,20 @@ index
 ---
 
 
+## 👨‍💻 Author
 
+**AlphaCoder (Java Developer Aspirant)**
+**** Learned from IBM JAVA PROF. CRTI ON COURSERA.
+
+---
+
+## ⭐ Final Note
+
+This project is built to strengthen **Spring Boot MVC fundamentals** and demonstrate **real-world web application structure** for interviews and development practice.
+
+---
+
+💡 *“Learn. Build. Grow.”*
 
 
 
