@@ -102,27 +102,27 @@ src/main/resources/
 ## 🖼️ Output Screens
 
 ### 🔑 Login Page
-<h4 align="center">Service Page</h4>
+<h4 align="center">Login Page</h4>
 <p align="center">
-  <img src="images/login_pg.png" width="600"/>
+  <img src="images/loginPage.png" width="600"/>
 </p>
 <!-- ![Login Page](images/login_pg.png) -->
 
 ---
 
-### 📝 Registration Page
-<h4 align="center">Service Page</h4>
+### 📝 Register Page
+<h4 align="center">Register Page</h4>
 <p align="center">
-  <img src="images/register_login.png" width="600"/>
+  <img src="images/register.png" width="600"/>
 </p>
 <!-- ![Register Page](images/register_login.png) -->
 
 ---
 
 ### 🏠 Home / UI Page
-<h4 align="center">Service Page</h4>
+<h4 align="center">Greet Page after login</h4>
 <p align="center">
-  <img src="images/UI_admin.png" width="600"/>
+  <img src="images/GreetPage_loginSucessful.png" width="600"/>
 </p>
 <!-- ![Home Page](images/UI_admin.png) -->
 
