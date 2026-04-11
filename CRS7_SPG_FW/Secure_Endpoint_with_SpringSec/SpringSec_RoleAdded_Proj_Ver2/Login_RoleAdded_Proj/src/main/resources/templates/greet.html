@@ -1,0 +1,91 @@
+
+
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greeting Page</title>
+
+    <style>
+        /* Full page styling */
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Card container */
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+            text-align: center;
+            width: 320px;
+        }
+
+        /* Heading */
+        h1 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        /* Username highlight */
+        span {
+            color: #4facfe;
+            font-weight: bold;
+        }
+
+        /* Button styling */
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 6px;
+            background-color: #ff4b5c;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background-color: #e63946;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Hello, <span th:text="${username}"></span> 👋</h1>
+
+        <form th:action="@{/logout}" method="post">
+            <button type="submit">Logout</button>
+        </form>
+    </div>
+</body>
+</html>
+
+
+
+<!-- // ****** -->
+<!-- <!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greeting Page</title>
+</head>
+<body>
+    <h1>Hello, <span th:text="${username}"></span>!</h1>
+    <form th:action="@{/logout}" method="post">
+        <button type="submit">Logout</button>
+    </form>
+</body>
+</html> -->
